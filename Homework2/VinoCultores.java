@@ -2,7 +2,6 @@ import java.util.Scanner;
 
 public class VinoCultores{
   public static void main(String[] args) {
-
     Scanner imput=new Scanner(System.in);
     System.out.println("Ingresa el precio inicial del  kilo de uva ");
     double P = imput.nextDouble();
@@ -17,17 +16,13 @@ public class VinoCultores{
 
     if(TI == "A" && TA == 1){
       GA=(P*K)+.20;
-
       System.out.println("Tu ganancia es de "+GA);
     }else if (TI == "A" && TA == 2) {
       GA=(P*K)+.30;
-
       System.out.println("Tu ganancia es de "+GA);
     }else if (TI == "B" && TA == 1) {
       GA=(P*K)-.30;
-
       System.out.println("Tu ganancia es de "+GA);
-
   }else if (TI == "B" && TA == 2) {
     GA=(P*K)-.50;
 
