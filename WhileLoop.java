@@ -12,7 +12,6 @@ public static void main(String[] args) {
     JOptionPane.showMessageDialog(null,"Yes, the numer is "+ number);
   }else if (guess > number){
     JOptionPane.showMessageDialog(null,"Your guess is too high");
-3w
   }else{
     JOptionPane.showMessageDialog(null,"Your guess is too high");
 
